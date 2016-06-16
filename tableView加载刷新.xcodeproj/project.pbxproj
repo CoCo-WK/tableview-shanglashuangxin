@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF226DC61D07AD320015D9AB /* RefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF226DC51D07AD320015D9AB /* RefreshTableViewController.m */; };
+		DF226DC81D07F78E0015D9AB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF226DC71D07F78E0015D9AB /* icon.png */; };
+		DF226DCC1D08052E0015D9AB /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF226DCA1D08052E0015D9AB /* MainTableViewCell.m */; };
+		DF226DCD1D08052E0015D9AB /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF226DCB1D08052E0015D9AB /* MainTableViewCell.xib */; };
 		DFA7E5071D06961D003BCAC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7E5061D06961D003BCAC7 /* main.m */; };
 		DFA7E50A1D06961D003BCAC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7E5091D06961D003BCAC7 /* AppDelegate.m */; };
 		DFA7E50D1D06961D003BCAC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA7E50C1D06961D003BCAC7 /* ViewController.m */; };
@@ -16,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF226DC41D07AD320015D9AB /* RefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshTableViewController.h; sourceTree = "<group>"; };
+		DF226DC51D07AD320015D9AB /* RefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshTableViewController.m; sourceTree = "<group>"; };
+		DF226DC71D07F78E0015D9AB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		DF226DC91D08052E0015D9AB /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		DF226DCA1D08052E0015D9AB /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		DF226DCB1D08052E0015D9AB /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 		DFA7E5021D06961D003BCAC7 /* tableView加载刷新.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tableView加载刷新.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA7E5061D06961D003BCAC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFA7E5081D06961D003BCAC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +72,12 @@
 				DFA7E5091D06961D003BCAC7 /* AppDelegate.m */,
 				DFA7E50B1D06961D003BCAC7 /* ViewController.h */,
 				DFA7E50C1D06961D003BCAC7 /* ViewController.m */,
+				DF226DC91D08052E0015D9AB /* MainTableViewCell.h */,
+				DF226DCA1D08052E0015D9AB /* MainTableViewCell.m */,
+				DF226DCB1D08052E0015D9AB /* MainTableViewCell.xib */,
+				DF226DC41D07AD320015D9AB /* RefreshTableViewController.h */,
+				DF226DC51D07AD320015D9AB /* RefreshTableViewController.m */,
+				DF226DC71D07F78E0015D9AB /* icon.png */,
 				DFA7E50E1D06961D003BCAC7 /* Main.storyboard */,
 				DFA7E5111D06961D003BCAC7 /* Assets.xcassets */,
 				DFA7E5131D06961D003BCAC7 /* LaunchScreen.storyboard */,
@@ -110,6 +126,7 @@
 				TargetAttributes = {
 					DFA7E5011D06961D003BCAC7 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = X9CDJJJ6FZ;
 					};
 				};
 			};
@@ -136,9 +153,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF226DC81D07F78E0015D9AB /* icon.png in Resources */,
 				DFA7E5151D06961D003BCAC7 /* LaunchScreen.storyboard in Resources */,
 				DFA7E5121D06961D003BCAC7 /* Assets.xcassets in Resources */,
 				DFA7E5101D06961D003BCAC7 /* Main.storyboard in Resources */,
+				DF226DCD1D08052E0015D9AB /* MainTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFA7E50D1D06961D003BCAC7 /* ViewController.m in Sources */,
+				DF226DC61D07AD320015D9AB /* RefreshTableViewController.m in Sources */,
 				DFA7E50A1D06961D003BCAC7 /* AppDelegate.m in Sources */,
 				DFA7E5071D06961D003BCAC7 /* main.m in Sources */,
+				DF226DCC1D08052E0015D9AB /* MainTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +286,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "tableView加载刷新/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "product.tableView----";
+				PRODUCT_BUNDLE_IDENTIFIER = kkkk3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -276,10 +300,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "tableView加载刷新/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "product.tableView----";
+				PRODUCT_BUNDLE_IDENTIFIER = kkkk3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -302,6 +329,7 @@
 				DFA7E51B1D06961D003BCAC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
